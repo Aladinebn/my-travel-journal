@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+:root {
+  --header-background: #f55a5a;
+  --header-text: #ffffff;
+  --text: #2b283a;
+  --link: #918e9b;
+  --separation-line: #f5f5f5;
+  --background: #f5f7fb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+}
+
+/* header */
+
+.header {
+  background-color: var(--header-background);
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-title {
+  color: var(--header-text);
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+
+/* place */
+
+.container {
+  padding: 20px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.place-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.place--img {
+  min-width: 20vw;
+  padding: 30px;
+}
+
+.place--info {
+  width: 40vw;
+}
+
+.place--title {
+  width: 25vw;
+  display: flex;
+  padding-bottom: 10px;
+}
+.place--location {
+  font-weight: 400;
+  font-size: 20px;
+}
+.place--link {
+  padding-left: 20px;
+  color: var(--link);
+}
+.place--visited {
+  font-weight: 700;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+
+.place--date {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.place--description {
+  font-size: 20px;
+}
+
+FontAwesomeIcon {
+  margin-right: 10px;
+}
